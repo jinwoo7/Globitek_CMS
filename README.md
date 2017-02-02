@@ -57,13 +57,13 @@ The following advanced user stories are optional:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/cekY3' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/VL4YkIL.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Most Challenging part for me was understanding the skeleton code and using php functions from seperate scripts.
+Most Challenging part for me was implementing the bonus section. I had hard time understanding the syntax and what all of the symbols represent inside of the preg_match function in order to check for valid characters.
 
 ## License
 
