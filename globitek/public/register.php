@@ -100,13 +100,13 @@
     
     <form method="post" action="register.php">
         <p class="textFields">First name:</p>
-        <input type="text" name="firstname" placeholder="John" value="<?php echo htmlentities($firstname) ?>">
+        <input type="text" name="firstname" placeholder="John" value="<?php echo htmlentities($firstname) ?>" autocomplete="off">
         <p class="textFields">Last name:</p>
-        <input type="text" name="lastname" placeholder="Doe" value="<?php echo htmlentities($lastname) ?>">
+        <input type="text" name="lastname" placeholder="Doe" value="<?php echo htmlentities($lastname) ?>" autocomplete="off">
         <p class="textFields">Email:</p>
-        <input type="text" name="email" placeholder="example@gmail.com" value="<?php echo htmlentities($email) ?>">
+        <input type="text" name="email" placeholder="example@gmail.com" value="<?php echo htmlentities($email) ?>" autocomplete="off">
         <p class="textFields">Username:</p>
-        <input type="text" name="username" placeholder="Username123" value="<?php echo htmlentities($username) ?>"></br>
+        <input type="text" name="username" placeholder="Username123" value="<?php echo htmlentities($username) ?>" autocomplete="off"></br>
         <input class="submit" type="submit" name="submit">
     </form>
 
